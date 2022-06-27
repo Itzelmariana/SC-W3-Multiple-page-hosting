@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #42b39a;
+}
+
+body {
+  margin: 150px auto;
+  max-width: 1250px;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(245, 245, 233);
+}
+
+h2 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.email-link {
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: gray;
+}
